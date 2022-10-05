@@ -1,0 +1,21 @@
+#entradas{
+    width: 100%;
+}
+#acciones{
+    width: 50%;
+}
+#fondo{
+    width: 30%;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+#formulario{
+    font-family: 'Orbitron', sans-serif;
+    background-color: orange;
+    
+}
+button{
+    margin-right: 20px;
+}
+

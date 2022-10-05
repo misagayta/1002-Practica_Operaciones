@@ -1,0 +1,15 @@
+thead{
+    color: purple;
+
+}
+.btn-primary{
+    background-color: rgb(35, 217, 223);
+}
+.btn-primary:hover{
+    background-color: red;
+}
+
+.card-header{
+    background-color: rgb(233, 4, 210);
+    color: white;
+}

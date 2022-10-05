@@ -1,0 +1,45 @@
+<br>
+<br>
+<br><br><br>
+<div class="row">
+    <div class="col-6">
+        <div class="mb-3">
+            <label for="form-label" for="">Numero1</label>
+            <input class="form-control" [(ngModel)]="num1" name="num1" placeholder="Numero1">
+        </div>
+        <div class="mb-3">
+            <label for="form-label" for="">Numero2</label>
+            <input class="form-control" [(ngModel)]="num2" name="num2" placeholder="Numero2">
+        </div>
+        <div class="mb-3">
+            <button (click)="sumar()" class="btn btn-primary">Calcular</button>
+        </div>
+        
+    </div>
+
+    <div class="col-6">
+        <h2>Resultado: {{resultado}} </h2>
+    </div>
+</div>
+
+<br>
+
+
+<div class="row">
+    <div class="mb-3">
+        <label for="form-label" for="">Numero</label>
+        <input type="text" class="form-control" [(ngModel)]="n" name="n" placeholder="Numero">
+    </div>
+
+    <div class="mb-3">
+            <button (click)="tabla()" class="btn btn-danger">Calcular Tabla</button>
+    </div>
+        
+
+    <div class="col-6" style="background-color: orange;">
+        <h4>Tabla de Multiplica</h4>
+        <div *ngFor="let resultado of texto">
+            {{resultado}}
+        </div>
+    </div>
+</div>
